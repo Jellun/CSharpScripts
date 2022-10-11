@@ -83,8 +83,6 @@ void Main()
 					{
 						lineStart = TimeSpan.FromMilliseconds(40);
 						lineEnd = lineStart + (aSubEndTimeCode - aSubStartTimeCode);
-						Console.WriteLine("LineStart: " + lineStart.ToString(@"hh\:mm\:ss\,fff"));
-						Console.WriteLine("LineEnd: " + lineEnd.ToString(@"hh\:mm\:ss\,fff"));
 					}
 					stringBuilder.Append(lineStart.ToString(@"hh\:mm\:ss\,fff") + " --> " + lineEnd.ToString(@"hh\:mm\:ss\,fff") + Environment.NewLine);
 				}
